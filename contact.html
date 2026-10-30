@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get in touch | H-AGE</title>
+  <meta name="description" content="Contact the H-AGE research team about the project, participation or collaboration.">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&family=Montserrat:wght@700;800&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap">
+      <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="H-AGE logo" data-optional><span>H-AGE</span></a>
+      <button class="menu-btn" aria-label="Menu" aria-expanded="false">&#9776;</button>
+      <nav class="nav-links">
+        <a href="about.html">About the Project</a>
+        <a href="events.html">Events</a>
+        <a href="radar.html">On our Radar</a>
+        <a href="publications.html">Publications</a>
+        <a href="contact.html" aria-current="page">Get in Touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="title-band">
+      <div class="wrap">
+        <h1 class="mont-title">Get in Touch</h1>
+      </div>
+    </section>
+
+    <section class="contact-intro">
+      <div class="wrap">
+        <div class="contact-box reveal">
+          <p class="justify">Whether you are an older adult, a community organization, a researcher, or simply curious about our work, we would be glad to hear from you. You can contact us to learn more about the research, ask about participation opportunities, propose a collaboration, or invite us to a community event.</p>
+          <p><strong class="brand-text">Contact:</strong> <a href="mailto:sofia.santosnunes@mail.mcgill.ca">sofia.santosnunes@mail.mcgill.ca</a> · <a href="mailto:humanage.ai@gmail.com">humanage.ai@gmail.com</a></p>
+          <p class="muted justify fine-print">Please do not include sensitive personal or medical information in your initial message. Contacting us does not automatically enrol you in a study; the research team will explain any relevant participation requirements.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft contact-form-section">
+      <div class="wrap">
+        <form class="contact-form reveal" id="contact-form" data-to="sofia.santosnunes@mail.mcgill.ca,humanage.ai@gmail.com">
+          <div class="contact-photo">
+            <img src="assets/img/contact.jpg" alt="An older participant mirroring the NAO robot's outstretched arms while Sofia guides the session">
+          </div>
+          <div class="form">
+            <label>Name
+              <input name="name" required autocomplete="name">
+            </label>
+            <label>Email
+              <input name="email" type="email" required autocomplete="email">
+            </label>
+            <label>Message
+              <textarea name="message" required></textarea>
+            </label>
+          </div>
+          <div class="form-foot">
+            <button class="pill" type="submit">Send message</button>
+            <p class="note">This opens your email app with your message ready to send.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="partners">
+    <img src="assets/img/partners/mcgill.png" alt="McGill University">
+    <img class="tall-logo" src="assets/img/partners/culture-mental-health.png" alt="Culture and Mental Health Research Unit">
+    <img src="assets/img/partners/mitacs.png" alt="Mitacs">
+    <img src="assets/img/partners/inrobics.svg" alt="Inrobics Social Robotics">
+  </div>
+  <footer class="footer">
+    <p>&copy; 2026 H-AGE. All rights reserved.</p>
+  </footer>
+</body>
+</html>
